@@ -3,7 +3,7 @@
 
 	<default sync-j="4" revision="pyro"/>
 	<remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-	<remote fetch="https://github.com/Basharatmartin" name="basecon"/>
+	<remote fetch="https://github.com/Basharatmartin" name="kundo-bsp-platform"/>
 	<remote fetch="https://github.com/openembedded" name="oe"/>
 
 	<project remote="yocto" revision="pyro" name="poky" path="sources/poky"/>
@@ -11,10 +11,10 @@
 
 	<project remote="oe" revision="pyro" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-	<project remote="basecon" revision="pyro" name="kundo-bsp-platform" path="sources/base">
+	<!--project remote="basecon" revision="pyro" name="kundo-bsp-platform" path="sources/base">
 		<linkfile dest="README" src="README"/>
 		<linkfile dest="setup-environment" src="setup-environment"/>
-	</project>
+	</project-->
 
 	<!--project remote="freescale" revision="morty" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
 	<project remote="freescale" revision="morty" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
