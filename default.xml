@@ -9,7 +9,7 @@
 
 	<project remote="yocto" revision="pyro" name="poky" path="poky_pyro"/>
 	<project remote="meta-kundo" revision="pyro" name="meta-kundo" path="poky_pyro/meta-kundo"/>
-	<project remote="meta-odroidd" revision="master" name="meta-odroid" path="poky_pyro/meta-odroid"/>
+	<project remote="meta-odroid" revision="master" name="meta-odroid" path="poky_pyro/meta-odroid"/>
 	<project remote="oe" revision="pyro" name="meta-openembedded" path="poky_pyro/meta-openembedded"/>
 
 	<!--project remote="basecon" revision="pyro" name="kundo-bsp-platform" path="sources/base">
