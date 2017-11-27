@@ -8,7 +8,7 @@
 	<remote fetch="https://github.com/openembedded" name="oe"/>
 
 	<project remote="yocto" revision="pyro" name="poky" path="poky_pyro"/>
-	<project remote="yocto" revision="pyro" name="meta-kundo" path="poky_pyro/meta-kundo"/>
+	<project remote="meta-kundo" revision="pyro" name="meta-kundo" path="poky_pyro/meta-kundo"/>
 
 	<project remote="oe" revision="pyro" name="meta-openembedded" path="poky_pyro/meta-openembedded"/>
 
